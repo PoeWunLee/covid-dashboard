@@ -35,7 +35,7 @@ class dfFilter:
 
     def basic_cleaning(self):
         #1) create geoDF and merge
-        geoDF = pd.read_csv("country_data.csv")[["Province/State","Country/Region","population","population_density","continent"]]
+        geoDF = pd.read_csv("https://raw.githubusercontent.com/PoeWunLee/covid-dashboard/main/country_data.csv")[["Province/State","Country/Region","population","population_density","continent"]]
         self.df = self.df.merge(geoDF)
 
         #2) format province,country name

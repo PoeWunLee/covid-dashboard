@@ -13,7 +13,7 @@ class retrieveData:
     
     def get_token(self,item):
         config = configparser.ConfigParser()
-        config.read("config.ini")
+        config.read("https://raw.githubusercontent.com/PoeWunLee/covid-dashboard/main/config.ini")
         token = config[item][self.configDict[item]]
 
         return token
