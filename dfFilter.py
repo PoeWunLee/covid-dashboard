@@ -1,11 +1,7 @@
 #this class stores the required x and y axes for the bubble graph
 import pandas as pd
 from datetime import date
-import re
 import configparser
-import json
-from pandas.io.json import json_normalize
-from flatten_json import flatten
 from datetime import date, datetime, timedelta
 
 class dfFilter:
