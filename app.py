@@ -25,6 +25,7 @@ masterDF =  dataMaster.get_all_covid_csv()
 
 #create dash object
 app = dash.Dash(__name__,external_stylesheets=[dbc.themes.DARKLY])
+server = app.server
 
 #define layout------------------------------------------------------------------------------------------------------------------------------------------------------------
 #default style
