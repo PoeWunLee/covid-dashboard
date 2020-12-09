@@ -1,5 +1,5 @@
-bokeh @ file:///D:/bld/bokeh_1606141485860/work
-Brotli @ file:///D:/bld/brotli-split_1603546384271/work
+bokeh 
+Brotli 
 certifi==2020.12.5
 cffi==1.14.4
 click==7.1.2
@@ -14,26 +14,26 @@ dash-renderer @ file:///home/conda/feedstock_root/build_artifacts/dash-renderer_
 dash-table @ file:///home/conda/feedstock_root/build_artifacts/dash-table_1604056396782/work
 dask @ file:///home/conda/feedstock_root/build_artifacts/dask-core_1602029610262/work
 DateTime==4.3
-distributed @ file:///D:/bld/distributed_1604508304296/work
+distributed  
 Flask==1.1.2
 Flask-Compress @ file:///home/conda/feedstock_root/build_artifacts/flask-compress_1604422164145/work
 fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1602700749102/work
-future @ file:///D:/bld/future_1605203695035/work
+future 
 gunicorn==20.0.4
 HeapDict==1.0.1
 itsdangerous==1.1.0
 Jinja2==2.11.2
 locket==0.2.0
-MarkupSafe @ file:///D:/bld/markupsafe_1602267645260/work
-msgpack @ file:///D:/bld/msgpack-python_1605895402483/work
-numpy @ file:///D:/bld/numpy_1604946253620/work
+MarkupSafe 
+msgpack 
+numpy 
 olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1607083949101/work
-pandas @ file:///D:/bld/pandas_1607423902731/work
+pandas 
 partd==1.1.0
-Pillow @ file:///D:/bld/pillow_1604748879536/work
+Pillow 
 plotly @ file:///home/conda/feedstock_root/build_artifacts/plotly_1607354896326/work
-psutil @ file:///D:/bld/psutil_1603571143117/work
+psutil 
 pycparser==2.20
 pyparsing==2.4.7
 python-dateutil==2.8.1
@@ -44,7 +44,7 @@ six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
 sortedcontainers @ file:///home/conda/feedstock_root/build_artifacts/sortedcontainers_1605110889605/work
 tblib==1.6.0
 toolz @ file:///tmp/build/80754af9/toolz_1601054250827/work
-tornado @ file:///D:/bld/tornado_1604105205494/work
+tornado 
 typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
 Werkzeug==1.0.1
 wincertstore==0.2
