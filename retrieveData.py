@@ -11,9 +11,10 @@ class retrieveData:
         self.response=None
         self.lastUpdate=None
     
+    
     def get_token(self,item):
         config = configparser.ConfigParser()
-        config.read("https://raw.githubusercontent.com/PoeWunLee/covid-dashboard/main/config.ini")
+        config.read("config.ini")
         token = config[item][self.configDict[item]]
 
         return token

@@ -17,7 +17,7 @@ import numpy as np
 
 
 #initialise tokens and master data
-dataMaster = retrieveData({"mapbox":"secret_token", "statsTotal":"stats_token"})
+dataMaster = retrieveData({"mapbox":"secret_token"})
 token = dataMaster.get_all_token()
 
 #master DFs
