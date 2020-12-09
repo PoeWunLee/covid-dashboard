@@ -9,4 +9,3 @@ pandas
 plotly
 configparser
 gunicorn
-
