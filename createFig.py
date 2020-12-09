@@ -59,7 +59,7 @@ class createChloroplethFig:
             size = self.sizeName,
             color_continuous_scale=px.colors.sequential.Redor,
             size_max = 50,
-            zoom = 0.7,
+            zoom = 0.3,
             center = {
                 "lat": 35,
                 "lon": 12
@@ -71,8 +71,8 @@ class createChloroplethFig:
             template = "plotly_dark",
             mapbox_style = "dark",
             margin={"r":0,"t":0,"l":0,"b":0},
-            height = 700,
-            width = 980,
+            height = 525,
+            width = 750,
             paper_bgcolor = "#303030"
         )
 
@@ -92,9 +92,9 @@ class createDailyBar:
 
         self.fig.update_layout(
             template="plotly_dark",
-            width = 888,
-            height = 250,
-            margin={"r":0, "t":0, "l":0, "b":0},
+            width = 470,
+            height = 160,
+            margin={"r":0, "t":20, "l":0, "b":0},
             showlegend= False,
             paper_bgcolor = "#303030",
             plot_bgcolor = "#303030"   
@@ -130,12 +130,12 @@ class createTop5Fig:
         self.fig.update_layout(
             barmode="stack",
             template="plotly_dark",
-            width = 888,
-            height = 250,
-            margin={"r":0, "t":0, "l":0, "b":0},
+            width = 470,
+            height = 195,
+            margin={"r":0, "t":20, "l":0, "b":0},
             showlegend= False,
             paper_bgcolor = "#303030",
-            plot_bgcolor = "#303030"
+            plot_bgcolor = "#303030",
         )
 
         self.fig.update_xaxes(title_text = "Cases",showgrid=False)
