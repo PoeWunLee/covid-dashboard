@@ -15,6 +15,10 @@ An interactive dashboard aim to visualise global COVID19 cases (confirmed, recov
 
 Select display date to view cases on a particular date.
 
+<div align="center">
+<img src="./pics/dispDate.jpg"/><br>
+</div>
+
 
 
 
