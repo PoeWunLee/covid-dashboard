@@ -1,7 +1,7 @@
 # COVID19 Interactive Dashboard
 
 ## Dashboard App
-Depoloyed to Heroku at [COVID-19 Dash App](https://covid-dashboard-poe.herokuapp.com/)
+Deployed to Heroku at [COVID-19 Dash App](https://covid-dashboard-poe.herokuapp.com/)
 
 Note that it may take awhile to load all components.
 
