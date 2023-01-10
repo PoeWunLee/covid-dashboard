@@ -25,7 +25,7 @@ HeapDict==1.0.1
 itsdangerous==1.1.0
 Jinja2==2.11.2
 locket==0.2.0
-MarkupSafe 
+markupsafe==2.0.1
 msgpack 
 numpy 
 olefile 
